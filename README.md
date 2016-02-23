@@ -3,7 +3,7 @@
 ## Clinic overview
 In this clinic, we will go over:
 
-* Setting up RSpec
+* [Setting up RSpec](https://learn.launchacademy.com/teams/spring-2016/curricula/ignition/lessons/tdd-method-testing)
 * TDD workflow - why we test!
 * Build classes using Test Driven Development
 * Resource for good practices for [writing rspec tests](http://betterspecs.org/#single)
@@ -27,7 +27,7 @@ In this clinic, we will go over:
 
 ##Building Classes with TDD
 * Dice object, with state of sides and behavior of rolling.
-* Pokemon objects, with states and behavior such as name, type, ability, strength, attack, evolve, etc.
+* Pokemon objects, with states and behavior such as name, ability, strength, attack, evolve, etc.
 
 ###Start with a Test
 * Start building our first tests
@@ -38,7 +38,7 @@ In this clinic, we will go over:
   - '.new' constructor, class method
   - '#roll' instance method
 * Let's build out our Pokemon class.
-  - Constructor, initialize method: name, poketype, ability, birthday
+  - Constructor, initialize method: name, ability, birthday
   - add a hit_points with a default value
   - add a strength counter
   - add behavior for training
